@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galviz — Minecraft Video Editor</title>
+  <meta name="description" content="Galviz is a Minecraft video editor crafting cinematic, high-retention edits for creators worldwide.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">GALVIZ<span class="logo-dot">.</span></a>
+      <nav class="nav">
+        <a href="#work">Work</a>
+        <a href="#bio">About</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero container">
+      <div class="hero-badge">
+        <span class="badge-dot"></span> Available for Hire
+      </div>
+      <h1 class="hero-title">
+        <span class="line-white">GALVIZ</span>
+        <span class="line-accent">EDITS<span class="cursor">|</span></span>
+      </h1>
+      <p class="hero-sub">Minecraft video editor crafting cinematic, fast-paced edits that keep viewers watching until the last second.</p>
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-solid">
+          <span>View My Work</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M7 17L17 7M17 7H7M17 7V17"/></svg>
+        </a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </section>
+
+    <section class="tools-marquee" aria-label="Tools I use">
+      <div class="marquee-track" id="marquee-track"></div>
+    </section>
+
+    <section id="work" class="portfolio-section container">
+      <div class="section-header">
+        <h2 class="section-title">Port<span class="accent">folio</span></h2>
+        <p class="section-subtitle">A collection of cinematic long-form content and high-retention short edits.</p>
+      </div>
+
+      <div class="filter-tabs" role="tablist">
+        <button class="filter-tab is-active" data-filter="all" role="tab" aria-selected="true">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/></svg>
+          All Edits
+        </button>
+        <button class="filter-tab" data-filter="longform" role="tab" aria-selected="false">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="4" width="20" height="16" rx="3"/><path d="M10 9l5 3-5 3V9z" fill="currentColor"/></svg>
+          Long-form
+        </button>
+        <button class="filter-tab" data-filter="shorts" role="tab" aria-selected="false">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 9.5l5 2.5-5 2.5v-5z" fill="currentColor"/></svg>
+          Shorts
+        </button>
+      </div>
+
+      <div id="gallery" class="gallery"></div>
+    </section>
+
+    <section id="bio" class="bio-section container">
+      <div class="bio-card">
+        <h2 class="bio-heading">Behind the Edits</h2>
+        <p>
+          Hey, I'm <strong>Galviz</strong> — a video editor obsessed with Minecraft content.
+          I turn raw gameplay into <em>fast-paced, story-driven edits</em> that keep viewers
+          watching until the last second. From dynamic sound design to seamless VFX, every cut
+          is built to make your channel stand out.
+        </p>
+        <p>
+          To me, editing is more than trimming clips — it's about pacing, rhythm, and giving
+          every second a reason to exist. Whenever I take on a project, I bring the same energy
+          I'd want a client to bring to mine: <strong>full commitment</strong>, from the first
+          cut to the final render.
+        </p>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section container">
+      <div class="contact-card">
+        <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+        <p class="contact-sub">Ready to elevate your Minecraft content? Send me a message and let me edit your next banger.</p>
+        <div class="contact-links">
+          <a class="contact-btn" href="https://x.com/TheGalviz" target="_blank" rel="noopener">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            X / Twitter
+          </a>
+          <button class="contact-btn contact-btn-outline" data-copy="thegalviz" data-label="Discord">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.107 13.107 0 0 1-1.872-.892.077.077 0 0 1-.008-.128 10.2 10.2 0 0 0 .372-.292.074.074 0 0 1 .077-.01c3.928 1.793 8.18 1.793 12.061 0a.074.074 0 0 1 .078.01c.12.098.246.198.373.292a.077.077 0 0 1-.006.127 12.299 12.299 0 0 1-1.873.892.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.028zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.157 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.157-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.157 2.418z"/></svg>
+            Discord
+          </button>
+          <button class="contact-btn contact-btn-outline" data-copy="guilhermemoraesgalvino@gmail.com" data-label="Email">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            Email
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>&copy; <span id="year"></span> GALVIZ. All rights reserved.</span>
+      <span class="footer-tagline">Crafted with precision for Minecraft Creators.</span>
+    </div>
+  </footer>
+
+  <button id="back-to-top" aria-label="Back to top">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 15l-6-6-6 6"/></svg>
+  </button>
+
+  <script src="script.js"></script>
+</body>
+</html>
