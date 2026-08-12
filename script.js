@@ -8,6 +8,11 @@ const tools = [
 // List of video portfolio items (longform = 16:9, shorts = 9:16)
 const videos = [
   {
+    id: "dn3RTD539ZQ",
+    title: "cookINTRO",
+    category: "longform",
+  },
+  {
     id: "655oOFnyJvA",
     title: "The New Minecraft Update Is Amazing! — Editing Intro",
     category: "longform",
