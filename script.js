@@ -8,6 +8,11 @@ const tools = [
 // List of video portfolio items (longform = 16:9, shorts = 9:16)
 const videos = [
   {
+    id: "Y1zscYOTmJo",
+    title: "BearyTrial",
+    category: "longform",
+  },
+  {
     id: "9dokSrm0oe8",
     title: "Trial For Ames",
     category: "longform",
