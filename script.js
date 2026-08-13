@@ -33,6 +33,11 @@ const videos = [
     category: "longform",
   },
   {
+    id: "SbEP_zR3efc",
+    title: "Ain’t No Way He Died Like That",
+    category: "shorts",
+  },
+  {
     id: "JAVaJ467d6c",
     title: "This Toilet Is Cursed... #minecraft",
     category: "shorts",
