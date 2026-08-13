@@ -33,6 +33,11 @@ const videos = [
     category: "longform",
   },
   {
+    id: "JAVaJ467d6c",
+    title: "This Toilet Is Cursed... #minecraft",
+    category: "shorts",
+  },
+  {
     id: "HaBprWAUuF4",
     title: "Do Not breath in Minecraft #minecraft",
     category: "shorts",
