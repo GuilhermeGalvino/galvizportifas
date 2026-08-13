@@ -33,6 +33,11 @@ const videos = [
     category: "longform",
   },
   {
+    id: "HaBprWAUuF4",
+    title: "Do Not breath in Minecraft #minecraft",
+    category: "shorts",
+  },
+  {
     id: "XGRrolv9MF4",
     title: "MILK Armor Is the Weirdest Thing in Minecraft #minecraft",
     category: "shorts",
