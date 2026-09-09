@@ -32,26 +32,6 @@ const videos = [
     title: "Minecraft Video Editing Showcase",
     category: "longform",
   },
-  {
-    id: "SbEP_zR3efc",
-    title: "Ain’t No Way He Died Like That",
-    category: "shorts",
-  },
-  {
-    id: "JAVaJ467d6c",
-    title: "This Toilet Is Cursed... #minecraft",
-    category: "shorts",
-  },
-  {
-    id: "HaBprWAUuF4",
-    title: "Do Not breath in Minecraft #minecraft",
-    category: "shorts",
-  },
-  {
-    id: "XGRrolv9MF4",
-    title: "MILK Armor Is the Weirdest Thing in Minecraft #minecraft",
-    category: "shorts",
-  },
 ];
 
 function createCardHTML(v) {
@@ -139,6 +119,10 @@ function renderGallery(filter = "all") {
         </div>
       `;
     }
+  }
+
+  if (!html) {
+    html = `<div class="gallery-empty">No edits available in this category.</div>`;
   }
 
   gallery.innerHTML = html;
